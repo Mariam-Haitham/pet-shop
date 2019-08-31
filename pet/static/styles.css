@@ -1,0 +1,105 @@
+.navbar {
+	height: 50px;
+	background-color: #FF6600;
+}
+
+.line {
+	margin-top: 25px;
+	color: white;
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 30px;
+	font-weight: 900;
+}
+
+.navbar-brand {
+	color: white;
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 30px;
+	font-weight: 900;
+	text-shadow: 3px 3px #282828;
+}
+
+.navbar-brand:hover {
+	color: #282828;
+}
+
+.nav-link {
+	margin-left: 20px;
+	margin-top: 1.5px;
+	color: #282828;
+	font-family: 'Monda', sans-serif;
+	font-size: 17px;
+	font-weight: bold;
+}
+
+.nav-link:hover {
+	color: white;
+}
+
+.btn {
+	color: white;
+	border-color: #282828;
+	background-color: #282828;
+	font-family: 'Monda', sans-serif;
+}
+
+.btn:hover {
+	color: #FF6600;
+	border-color: #282828;
+	background-color: #282828;	
+}
+
+.form-control, .form-control:hover {
+	border-color: #282828;
+	width: 250px !Important;
+	font-family: 'Monda', sans-serif;
+	box-shadow: 2px 2px #282828;
+}
+
+.card {
+	margin: 30px;
+	margin-top: 150px;
+	width: 150px;
+	height: 270px;
+	border: none;
+}
+
+.card-img-top {
+	width: 150px;
+	height: 150px;
+}
+
+h5 {
+	color: #282828;
+	font-family: 'Monda', sans-serif;
+	font-size: 17px;
+	font-weight: bold;
+}
+
+.card a {
+	width: 100px;
+}
+
+.detail, .card-header {
+	color: #282828;
+	font-family: 'Monda', sans-serif;
+}
+
+.card-header {
+	border-color: #FF6600;
+}
+
+.update, .delete {
+	margin-bottom: 10px; 
+}
+
+.jumbotron {
+	font-weight: bold;
+	color: #FF6600;
+	font-family: 'Monda', sans-serif;
+	box-shadow: #FF6600;
+}
+
+
+
+

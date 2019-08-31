@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block title %} Pet Detail {% endblock title %}
+
+{% block content %}
+  <div class = "card" style = "margin: 0 auto; margin-top: 150px;">
+    <div class = "card-header text-center" style = "background-color: #e3f2fd; color: 000034;">
+      Details
+    </div>
+
+    <div class = "card-body text-center">
+
+      <img src = "{{pet.image.url}}" alt = "{{pet.name}} image" class = "card-img-top">
+      <h5 class = "card-title detail"> {{pet.name}} </h5>
+      <p class = "card-text detail"> age: {{pet.age}} <br> price: {{pet.price}} </p>
+
+      <a href = "{% url 'pet-update' pet.id %}" class = "btn update text-center"> Update </a>
+      <a href = "{% url 'pet-delete' pet.id %}" class = "btn delete"> Delete </a>
+      
+    </div>
+  </div>
+
+{% endblock content %}
